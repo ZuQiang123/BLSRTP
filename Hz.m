@@ -17,6 +17,6 @@ Bz = log((y-Y)+R);
 y = (Bx*N + By*M + Bz*L);
 
 end
-% MMM Magnetization inversion method
+
 
 
