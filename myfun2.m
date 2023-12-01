@@ -25,9 +25,6 @@ for j = 1:a
 end
 y=-k1.*temp1-k2.*temp2+k3.*temp3+k4.*temp4+k5.*temp5+k6.*temp6;
 end
-%该方法利用骆遥在文献中所给公式，计算长方体△T总场及其个方向导数。
-%最终结果y是还没有进行上下限相减的结果，将在prism_magnetic子函数中进行计算。
-%该子函数仅计算了长方体△T总场的数值，其他结果分别在dcz_myfun,dcx_myfun,dcy_myfun子函数中
-%长方体大小即积分上下限，由main函数确定。
+
 
 
